@@ -52,8 +52,8 @@ striping:
 }
 
 /* nth-child selector for modern browsers */
-.pure-table-striped tr:nth-child(2n-1) td,
-.pure-table-striped tr:nth-child(2n-1) th {
+.pure-table-striped > tbody tr:nth-child(2n-1) td,
+.pure-table-striped > tbody tr:nth-child(2n-1) th {
     background-color: #f2f2f2;
 }
 
