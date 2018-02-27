@@ -1402,6 +1402,11 @@ since IE8 won't execute CSS that contains a CSS3 selector.
     padding: 0.5em 1em; /* cell padding */
 }
 
+.pure-table-condensed td,
+.pure-table-condensed th {
+    padding: .5em;
+}
+
 /* Consider removing this next declaration block, as it causes problems when
 there's a rowspan on the first cell. Case added to the tests. issue#432 */
 .pure-table td:first-child,
